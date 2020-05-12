@@ -119,8 +119,8 @@ h6,
   border-color: #120337 !important;
 }
 .btn-secondary {
-  background-color: #bfcecb;
-  border-color: #bfcecb;
+  background-color: #cccccc;
+  border-color: #cccccc;
   color: #ffffff;
 }
 .btn-secondary:hover,
@@ -129,14 +129,14 @@ h6,
 .btn-secondary:active,
 .btn-secondary.active {
   color: #ffffff;
-  background-color: #94ada8;
-  border-color: #94ada8;
+  background-color: #a6a6a6;
+  border-color: #a6a6a6;
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #ffffff !important;
-  background-color: #94ada8 !important;
-  border-color: #94ada8 !important;
+  background-color: #a6a6a6 !important;
+  border-color: #a6a6a6 !important;
 }
 .btn-info {
   background-color: #a38f84;
@@ -240,8 +240,8 @@ h6,
 }
 .btn-secondary-outline {
   background: none;
-  border-color: #85a29c;
-  color: #85a29c;
+  border-color: #999999;
+  color: #999999;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
@@ -249,14 +249,14 @@ h6,
 .btn-secondary-outline:active,
 .btn-secondary-outline.active {
   color: #ffffff;
-  background-color: #bfcecb;
-  border-color: #bfcecb;
+  background-color: #cccccc;
+  border-color: #cccccc;
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
   color: #ffffff !important;
-  background-color: #bfcecb !important;
-  border-color: #bfcecb !important;
+  background-color: #cccccc !important;
+  border-color: #cccccc !important;
 }
 .btn-info-outline {
   background: none;
@@ -586,7 +586,10 @@ section.form .container {
   font-size: 18px;
 }
 #header3-4 .mbr-section-title SPAN {
-  font-size: 24px;
+  font-size: 14px;
+}
+#header3-4 .mbr-section-subtitle {
+  font-size: 12px;
 }
 
 
@@ -846,6 +849,41 @@ section.form .container {
 #msg-box2-1v .mbr-section-subtitle {
   color: #a0a0a0;
 }
+#msg-box2-58 .mbr-section-title {
+  color: #efefef;
+  font-size: 22px;
+}
+#msg-box2-58 .mbr-section-subtitle {
+  color: #a0a0a0;
+}
+#msg-box2-5a .mbr-section-title {
+  color: #efefef;
+  font-size: 22px;
+}
+#msg-box2-5a .mbr-section-subtitle {
+  color: #a0a0a0;
+}
+#msg-box2-5b .mbr-section-title {
+  color: #efefef;
+  font-size: 22px;
+}
+#msg-box2-5b .mbr-section-subtitle {
+  color: #a0a0a0;
+}
+#msg-box2-5c .mbr-section-title {
+  color: #efefef;
+  font-size: 22px;
+}
+#msg-box2-5c .mbr-section-subtitle {
+  color: #a0a0a0;
+}
+#msg-box2-5d .mbr-section-title {
+  color: #efefef;
+  font-size: 22px;
+}
+#msg-box2-5d .mbr-section-subtitle {
+  color: #a0a0a0;
+}
 #header3-1s .mbr-section-title,
 #header3-1s .mbr-section-subtitle {
   text-align: center;
@@ -980,6 +1018,13 @@ section.form .container {
 #msg-box2-26 .mbr-section-subtitle {
   color: #a0a0a0;
 }
+#msg-box2-59 .mbr-section-title {
+  color: #efefef;
+  font-size: 22px;
+}
+#msg-box2-59 .mbr-section-subtitle {
+  color: #a0a0a0;
+}
 #msg-box2-3s .mbr-section-title {
   color: #efefef;
   font-size: 22px;
@@ -1014,6 +1059,9 @@ section.form .container {
 }
 #header3-27 .mbr-section-title SPAN {
   font-size: 14px;
+}
+#header3-27 .mbr-section-subtitle {
+  font-size: 12px;
 }
 
 
@@ -1145,6 +1193,9 @@ section.form .container {
 }
 #header3-3z .mbr-section-title SPAN {
   font-size: 14px;
+}
+#header3-3z .mbr-section-subtitle {
+  font-size: 12px;
 }
 
 
@@ -1284,6 +1335,9 @@ section.form .container {
 #header3-3m .mbr-section-title SPAN {
   font-size: 14px;
 }
+#header3-3m .mbr-section-subtitle {
+  font-size: 12px;
+}
 
 
 #ext_menu-18 .hide-buttons .nav-btn {
@@ -1366,6 +1420,13 @@ section.form .container {
 #msg-box5-50 H3 {
   color: #a38f84;
 }
+#msg-box2-55 .mbr-section-title {
+  color: #efefef;
+  font-size: 22px;
+}
+#msg-box2-55 .mbr-section-subtitle {
+  color: #a0a0a0;
+}
 #msg-box2-3r .mbr-section-title {
   color: #efefef;
   font-size: 22px;
@@ -1442,6 +1503,9 @@ section.form .container {
 }
 #header3-2q .mbr-section-title SPAN {
   font-size: 14px;
+}
+#header3-2q .mbr-section-subtitle {
+  font-size: 12px;
 }
 
 
@@ -1602,6 +1666,9 @@ section.form .container {
 #header3-2h .mbr-section-title SPAN {
   font-size: 14px;
 }
+#header3-2h .mbr-section-subtitle {
+  font-size: 12px;
+}
 
 
 #ext_menu-1g .hide-buttons .nav-btn {
@@ -1719,6 +1786,13 @@ section.form .container {
 #msg-box2-4a .mbr-section-subtitle {
   color: #a0a0a0;
 }
+#msg-box2-56 .mbr-section-title {
+  color: #efefef;
+  font-size: 22px;
+}
+#msg-box2-56 .mbr-section-subtitle {
+  color: #a0a0a0;
+}
 #header3-44 .mbr-section-title,
 #header3-44 .mbr-section-subtitle {
   text-align: center;
@@ -1732,6 +1806,9 @@ section.form .container {
 }
 #header3-44 .mbr-section-title SPAN {
   font-size: 14px;
+}
+#header3-44 .mbr-section-subtitle {
+  font-size: 12px;
 }
 
 
@@ -1857,6 +1934,9 @@ section.form .container {
 #header3-3d .mbr-section-title SPAN {
   font-size: 14px;
 }
+#header3-3d .mbr-section-subtitle {
+  font-size: 12px;
+}
 
 
 #ext_menu-1e .hide-buttons .nav-btn {
@@ -1943,8 +2023,21 @@ section.form .container {
 #header3-4n .mbr-section-title SPAN {
   font-size: 14px;
 }
+#header3-4n .mbr-section-subtitle {
+  font-size: 12px;
+}
 #msg-box5-4w H3 {
   color: #a38f84;
+}
+#msg-box6-57 h3,
+#msg-box6-57 p {
+  color: #fff;
+}
+#msg-box6-57 H3 {
+  font-size: 20px;
+}
+#msg-box6-57 P {
+  font-size: 14px;
 }
 #header3-4p .mbr-section-title,
 #header3-4p .mbr-section-subtitle {
@@ -1959,6 +2052,9 @@ section.form .container {
 }
 #header3-4p .mbr-section-title SPAN {
   font-size: 14px;
+}
+#header3-4p .mbr-section-subtitle {
+  font-size: 12px;
 }
 
 
@@ -2126,6 +2222,9 @@ section.form .container {
 #header3-37 .mbr-section-title SPAN {
   font-size: 14px;
 }
+#header3-37 .mbr-section-subtitle {
+  font-size: 12px;
+}
 
 
 #msg-box5-4t H3 {
@@ -2221,6 +2320,9 @@ section.form .container {
 #header3-2u .mbr-section-title SPAN {
   font-size: 14px;
 }
+#header3-2u .mbr-section-subtitle {
+  font-size: 12px;
+}
 
 
 #msg-box5-4s H3 {
@@ -2310,6 +2412,9 @@ section.form .container {
 #header3-4e .mbr-section-title SPAN {
   font-size: 14px;
 }
+#header3-4e .mbr-section-subtitle {
+  font-size: 12px;
+}
 
 
 #msg-box5-4r H3 {
@@ -2398,4 +2503,7 @@ section.form .container {
 }
 #header3-4j .mbr-section-title SPAN {
   font-size: 14px;
+}
+#header3-4j .mbr-section-subtitle {
+  font-size: 12px;
 }

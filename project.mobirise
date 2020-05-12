@@ -7,7 +7,7 @@
       "title": "Mobirise3",
       "styling": {
         "primaryColor": "#2b0680",
-        "secondaryColor": "#bfcecb",
+        "secondaryColor": "#cccccc",
         "successColor": "#90a878",
         "infoColor": "#a38f84",
         "warningColor": "#f3c649",
@@ -34,7 +34,7 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "uniqCompNum": 185,
+    "uniqCompNum": 194,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "gdpr": false
@@ -525,7 +525,10 @@
               "font-size": "18px"
             },
             ".mbr-section-title SPAN": {
-              "font-size": "24px"
+              "font-size": "14px"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "12px"
             }
           },
           "_params": {
@@ -686,7 +689,7 @@
             "inverse": true,
             "imageSize": "30",
             "paddingTop": 0,
-            "paddingBottom": 0,
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -766,7 +769,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "<a href=\"https://tvn24.pl\" target=\"_blank\">tvn24.pl</a>",
+          "title": "tvn24.pl",
           "text": "Cut down the development time with drag-and-drop website builder.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://tvn24.pl\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://tvn24.pl&nbsp;</a>",
           "_tags": [
@@ -805,7 +808,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "<a href=\"https://www.onet.pl\" target=\"_blank\">onet.pl</a>",
+          "title": "onet.pl",
           "text": "Cut down the development time with drag-and-drop website builder.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.onet.pl\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.onet.pl</a>",
           "_tags": [
@@ -844,7 +847,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "<a href=\"https://www.trojmiasto.pl\" target=\"_blank\">trojmiasto.pl</a>",
+          "title": "trojmiasto.pl",
           "text": "Cut down the development time with drag-and-drop website builder.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.trojmiasto.pl\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.trojmiasto.pl</a>",
           "_tags": [
@@ -883,7 +886,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "<a href=\"https://edition.cnn.com\" target=\"_blank\">CNN International Edition</a>",
+          "title": "CNN International Edition",
           "text": "Cut down the development time with drag-and-drop website builder.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://edition.cnn.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://edition.cnn.com</a>",
           "_tags": [
@@ -922,7 +925,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "<a href=\"https://www.bbc.com\" target=\"_blank\">BBC News</a>",
+          "title": "BBC News",
           "text": "Cut down the development time with drag-and-drop website builder.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.bbc.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.bbc.com</a>",
           "_tags": [
@@ -961,7 +964,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "<a href=\"https://www.defence24.pl/\" target=\"_blank\">defence24</a>",
+          "title": "defence24",
           "text": "Cut down the development time with drag-and-drop website builder.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.defence24.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.defence24.pl/</a>",
           "_tags": [
@@ -1000,7 +1003,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "<a href=\"https://www.portalmorski.pl/\" target=\"_blank\">portalmorski.pl</a>",
+          "title": "portalmorski.pl",
           "text": "Cut down the development time with drag-and-drop website builder.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.portalmorski.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.portalmorski.pl/</a>",
           "_tags": [
@@ -1195,7 +1198,7 @@
             "inverse": true,
             "imageSize": "29",
             "paddingTop": "0",
-            "paddingBottom": 0,
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -1361,6 +1364,201 @@
           ],
           "_name": "msg-box2",
           "_anchor": "msg-box2-1v"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#efefef",
+              "font-size": "22px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "inverse": true,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "forum pc",
+          "text": "Cut down the development time with drag-and-drop website builder.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.forumpc.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.forumpc.pl/</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-58"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#efefef",
+              "font-size": "22px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "inverse": true,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "techlipton.pl",
+          "text": "Cut down the development time with drag-and-drop website builder.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://techlipton.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://techlipton.pl/</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-5a"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#efefef",
+              "font-size": "22px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "inverse": true,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "gry-online.pl",
+          "text": "Cut down the development time with drag-and-drop website builder.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://www.gry-online.pl/</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-5b"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#efefef",
+              "font-size": "22px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "inverse": true,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "planetagracza.pl",
+          "text": "Cut down the development time with drag-and-drop website builder.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://planetagracza.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://planetagracza.pl/</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-5c"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#efefef",
+              "font-size": "22px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "inverse": true,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "gram.pl",
+          "text": "Cut down the development time with drag-and-drop website builder.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.gram.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.gram.pl/</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-5d"
         },
         {
           "_styles": {
@@ -1548,7 +1746,7 @@
             "inverse": true,
             "imageSize": "30",
             "paddingTop": 0,
-            "paddingBottom": 0,
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -1614,7 +1812,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -1630,7 +1828,7 @@
           },
           "title": "urania",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://www.urania.edu.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.urania.edu.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.urania.edu.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -1653,7 +1851,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -1669,7 +1867,7 @@
           },
           "title": "kwantowo",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://www.kwantowo.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.kwantowo.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.kwantowo.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -1692,7 +1890,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -1708,7 +1906,7 @@
           },
           "title": "nauka w polsce",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">http://naukawpolsce.pap.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://naukawpolsce.pap.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">http://naukawpolsce.pap.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -1731,7 +1929,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -1747,7 +1945,7 @@
           },
           "title": "puls kosmosu",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://www.pulskosmosu.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.pulskosmosu.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.pulskosmosu.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -1770,7 +1968,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -1786,7 +1984,7 @@
           },
           "title": "astronomia24",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://www.astronomia24.com/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.astronomia24.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.astronomia24.com/</a>",
           "_tags": [
             "Theme"
           ],
@@ -1809,7 +2007,46 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "spidersweb",
+          "text": "Cut down the development time with drag-and-drop website builder.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.spidersweb.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.spidersweb.pl/</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-59"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#efefef",
+              "font-size": "22px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "inverse": true,
+            "paddingTop": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -1825,7 +2062,7 @@
           },
           "title": "techmaniak",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://www.techmaniak.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.techmaniak.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.techmaniak.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -1848,7 +2085,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -1864,7 +2101,7 @@
           },
           "title": "geekweek.pl",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://www.geekweek.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.geekweek.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.geekweek.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -1887,7 +2124,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -1903,7 +2140,7 @@
           },
           "title": "engadget.com",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://www.engadget.com/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.engadget.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.engadget.com/</a>",
           "_tags": [
             "Theme"
           ],
@@ -1924,6 +2161,9 @@
             },
             ".mbr-section-title SPAN": {
               "font-size": "14px"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "12px"
             }
           },
           "_params": {
@@ -2093,7 +2333,7 @@
             "inverse": true,
             "imageSize": "30",
             "paddingTop": "0",
-            "paddingBottom": 0,
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -2159,7 +2399,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -2175,7 +2415,7 @@
           },
           "title": "fm.tuba",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://fm.tuba.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://fm.tuba.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://fm.tuba.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -2198,7 +2438,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -2214,7 +2454,7 @@
           },
           "title": "spotify.com",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://www.spotify.com/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.spotify.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.spotify.com/</a>",
           "_tags": [
             "Theme"
           ],
@@ -2237,7 +2477,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -2253,7 +2493,7 @@
           },
           "title": "UPC horizon.tv",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://www.horizon.tv/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.horizon.tv/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.horizon.tv/</a>",
           "_tags": [
             "Theme"
           ],
@@ -2276,7 +2516,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -2292,7 +2532,7 @@
           },
           "title": "HBO GO hbogo.pl",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://hbogo.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://hbogo.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://hbogo.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -2315,7 +2555,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -2331,7 +2571,7 @@
           },
           "title": "netflix.com",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://www.netflix.com/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.netflix.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.netflix.com/</a>",
           "_tags": [
             "Theme"
           ],
@@ -2352,6 +2592,9 @@
             },
             ".mbr-section-title SPAN": {
               "font-size": "14px"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "12px"
             }
           },
           "_params": {
@@ -2385,7 +2628,7 @@
             "inverse": true,
             "imageSize": "30",
             "paddingTop": "2",
-            "paddingBottom": 0,
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -2548,7 +2791,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -2564,7 +2807,7 @@
           },
           "title": "autocentrum.pl",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://www.autocentrum.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.autocentrum.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.autocentrum.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -2587,7 +2830,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -2603,7 +2846,7 @@
           },
           "title": "autogaleria.pl",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://autogaleria.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://autogaleria.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://autogaleria.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -2626,7 +2869,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -2642,7 +2885,7 @@
           },
           "title": "auto-swiat",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://www.auto-swiat.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.auto-swiat.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.auto-swiat.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -2665,7 +2908,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -2681,7 +2924,7 @@
           },
           "title": "www.motofakty",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://www.motofakty.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.motofakty.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.motofakty.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -2704,7 +2947,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -2720,7 +2963,7 @@
           },
           "title": "aviation24.pl",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://aviation24.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://aviation24.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://aviation24.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -2743,7 +2986,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -2759,7 +3002,7 @@
           },
           "title": "lotnictwo.net",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">http://lotnictwo.net/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://lotnictwo.net/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">http://lotnictwo.net/</a>",
           "_tags": [
             "Theme"
           ],
@@ -2782,7 +3025,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -2798,7 +3041,7 @@
           },
           "title": "dlapilota.pl",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://dlapilota.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://dlapilota.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://dlapilota.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -2819,6 +3062,9 @@
             },
             ".mbr-section-title SPAN": {
               "font-size": "14px"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "12px"
             }
           },
           "_params": {
@@ -2988,7 +3234,7 @@
             "inverse": true,
             "imageSize": "30",
             "paddingTop": 0,
-            "paddingBottom": 0,
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -3054,7 +3300,46 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "\n<div>niebezpiecznik.pl<br></div>",
+          "text": "Cut down the development time with drag-and-drop website builder.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://niebezpiecznik.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://niebezpiecznik.pl/</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-55"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#efefef",
+              "font-size": "22px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "inverse": true,
+            "paddingTop": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -3070,7 +3355,7 @@
           },
           "title": "sekurak.pl",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://sekurak.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://sekurak.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://sekurak.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -3093,7 +3378,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -3109,7 +3394,7 @@
           },
           "title": "utest.com",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://www.utest.com/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.utest.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.utest.com/</a>",
           "_tags": [
             "Theme"
           ],
@@ -3132,7 +3417,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -3148,7 +3433,7 @@
           },
           "title": "python org",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://www.python.org/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.python.org/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.python.org/</a>",
           "_tags": [
             "Theme"
           ],
@@ -3171,7 +3456,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -3187,7 +3472,7 @@
           },
           "title": "GitHub",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://github.com/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://github.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://github.com/</a>",
           "_tags": [
             "Theme"
           ],
@@ -3210,7 +3495,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -3226,7 +3511,7 @@
           },
           "title": "spr. czy twoje dane wyciekły?",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://haveibeenpwned.com/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://haveibeenpwned.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://haveibeenpwned.com/</a>",
           "_tags": [
             "Theme"
           ],
@@ -3249,7 +3534,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -3265,7 +3550,7 @@
           },
           "title": "TrojQa Trójmiejska Społeczność Testerska",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">trojQa.pl</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://trojqa.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">http://trojqa.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -3288,7 +3573,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -3304,7 +3589,7 @@
           },
           "title": "tech.3camp.pl",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://tech.3camp.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://tech.3camp.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://tech.3camp.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -3327,7 +3612,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -3343,7 +3628,7 @@
           },
           "title": "testerzy.pl",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://testerzy.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://testerzy.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://testerzy.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -3366,7 +3651,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -3382,7 +3667,7 @@
           },
           "title": "testuj.pl",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://testuj.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://testuj.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://testuj.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -3403,6 +3688,9 @@
             },
             ".mbr-section-title SPAN": {
               "font-size": "14px"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "12px"
             }
           },
           "_params": {
@@ -3572,7 +3860,7 @@
             "inverse": true,
             "imageSize": "30",
             "paddingTop": 0,
-            "paddingBottom": 0,
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -3638,7 +3926,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -3654,7 +3942,7 @@
           },
           "title": "SoloLearn",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://www.sololearn.com/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.sololearn.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.sololearn.com/</a>",
           "_tags": [
             "Theme"
           ],
@@ -3677,7 +3965,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -3693,7 +3981,7 @@
           },
           "title": "pasja informatyki",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://miroslawzelent.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://miroslawzelent.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://miroslawzelent.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -3716,7 +4004,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -3732,7 +4020,7 @@
           },
           "title": "devstyle.pl",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://devstyle.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://devstyle.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://devstyle.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -3755,7 +4043,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -3771,7 +4059,7 @@
           },
           "title": "quizlet.com",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://quizlet.com/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://quizlet.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://quizlet.com/</a>",
           "_tags": [
             "Theme"
           ],
@@ -3794,7 +4082,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -3810,7 +4098,7 @@
           },
           "title": "udemy.com",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://www.udemy.com/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.udemy.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.udemy.com/</a>",
           "_tags": [
             "Theme"
           ],
@@ -3833,7 +4121,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -3849,7 +4137,7 @@
           },
           "title": "learndigital google",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://learndigital.withgoogle.com/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://learndigital.withgoogle.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://learndigital.withgoogle.com/</a>",
           "_tags": [
             "Theme"
           ],
@@ -3872,7 +4160,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -3888,7 +4176,7 @@
           },
           "title": "books.google.com",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://books.google.com/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://books.google.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://books.google.com/</a>",
           "_tags": [
             "Theme"
           ],
@@ -3911,7 +4199,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -3927,7 +4215,7 @@
           },
           "title": "biblioteka nasbi.pl",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://nasbi.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://nasbi.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://nasbi.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -3950,7 +4238,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -3966,7 +4254,7 @@
           },
           "title": "Federacja Bibliotek Cyfrowych",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://fbc.pionier.net.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://fbc.pionier.net.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://fbc.pionier.net.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -3987,6 +4275,9 @@
             },
             ".mbr-section-title SPAN": {
               "font-size": "14px"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "12px"
             }
           },
           "_params": {
@@ -4222,7 +4513,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -4238,7 +4529,7 @@
           },
           "title": "pracuj.pl",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://www.pracuj.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.pracuj.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.pracuj.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -4261,7 +4552,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -4277,7 +4568,7 @@
           },
           "title": "pl.indeed.com",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://pl.indeed.com/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://pl.indeed.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://pl.indeed.com/</a>",
           "_tags": [
             "Theme"
           ],
@@ -4300,7 +4591,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -4316,7 +4607,7 @@
           },
           "title": "praca.pl",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://www.praca.pl/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.praca.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.praca.pl/</a>",
           "_tags": [
             "Theme"
           ],
@@ -4339,7 +4630,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -4355,7 +4646,7 @@
           },
           "title": "jooble.org",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://pl.jooble.org/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://pl.jooble.org/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://pl.jooble.org/</a>",
           "_tags": [
             "Theme"
           ],
@@ -4378,7 +4669,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -4394,12 +4685,51 @@
           },
           "title": "nofluffjobs.com",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://nofluffjobs.com/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://nofluffjobs.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://nofluffjobs.com/</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box2",
           "_anchor": "msg-box2-4a"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#efefef",
+              "font-size": "22px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "inverse": true,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "szablony canva.com",
+          "text": "Cut down the development time with drag-and-drop website builder.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.canva.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.canva.com/</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-56"
         },
         {
           "_styles": {
@@ -4415,6 +4745,9 @@
             },
             ".mbr-section-title SPAN": {
               "font-size": "14px"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "12px"
             }
           },
           "_params": {
@@ -4584,7 +4917,7 @@
             "inverse": true,
             "imageSize": "30",
             "paddingTop": 0,
-            "paddingBottom": 0,
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -4650,7 +4983,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -4666,7 +4999,7 @@
           },
           "title": "google",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://www.google.com/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.google.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.google.com/</a>",
           "_tags": [
             "Theme"
           ],
@@ -4689,7 +5022,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -4705,7 +5038,7 @@
           },
           "title": "yahoo",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://www.yahoo.com/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.yahoo.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.yahoo.com/</a>",
           "_tags": [
             "Theme"
           ],
@@ -4728,7 +5061,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -4744,7 +5077,7 @@
           },
           "title": "duckduckgo",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://duckduckgo.com/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://duckduckgo.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://duckduckgo.com/</a>",
           "_tags": [
             "Theme"
           ],
@@ -4767,7 +5100,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -4783,7 +5116,7 @@
           },
           "title": "bing",
           "text": "Cut down the development time with drag-and-drop website builder.",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">https://www.bing.com/</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.bing.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.bing.com/</a>",
           "_tags": [
             "Theme"
           ],
@@ -4804,6 +5137,9 @@
             },
             ".mbr-section-title SPAN": {
               "font-size": "14px"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "12px"
             }
           },
           "_params": {
@@ -4940,6 +5276,9 @@
             },
             ".mbr-section-title SPAN": {
               "font-size": "14px"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "12px"
             }
           },
           "_params": {
@@ -5015,6 +5354,70 @@
           }
         },
         {
+          "_inherit": "msg-box5",
+          "_styles": {
+            "h3, p": {
+              "color": "#fff"
+            },
+            "H3": {
+              "font-size": "20px"
+            },
+            "P": {
+              "font-size": "14px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "40",
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/under-construction-800x533.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "jeszcze nie gotowe :((",
+          "text": "zapraszam wkrótce !",
+          "_tags": [
+            "Theme"
+          ],
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-57"
+        },
+        {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
@@ -5028,6 +5431,9 @@
             },
             ".mbr-section-title SPAN": {
               "font-size": "14px"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "12px"
             }
           },
           "_params": {
@@ -5263,7 +5669,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -5277,7 +5683,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "<a href=\"https://allegro.pl/\" target=\"_blank\">allegro</a>",
+          "title": "allegro",
           "text": "Cut down the development time with drag-and-drop website builder.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://allegro.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://allegro.pl/</a>",
           "_tags": [
@@ -5302,7 +5708,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -5316,7 +5722,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "<a href=\"https://www.amazon.de/\" target=\"_blank\">amazon de</a>",
+          "title": "amazon de",
           "text": "Cut down the development time with drag-and-drop website builder.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.amazon.de/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.amazon.de/</a>",
           "_tags": [
@@ -5341,7 +5747,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -5355,7 +5761,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "<a href=\"https://www.x-kom.pl/\" target=\"_blank\">x - kom</a>",
+          "title": "x - kom",
           "text": "Cut down the development time with drag-and-drop website builder.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.x-kom.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.x-kom.pl/</a>",
           "_tags": [
@@ -5380,7 +5786,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -5394,7 +5800,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "<a href=\"https://www.morele.net/\" target=\"_blank\">morele.net</a>",
+          "title": "morele.net",
           "text": "Cut down the development time with drag-and-drop website builder.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.morele.net/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.morele.net/</a>",
           "_tags": [
@@ -5419,7 +5825,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -5433,7 +5839,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "<a href=\"https://www.sferis.pl/\" target=\"_blank\">sferis.pl</a>",
+          "title": "sferis.pl",
           "text": "Cut down the development time with drag-and-drop website builder.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.sferis.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.sferis.pl/</a>",
           "_tags": [
@@ -5458,7 +5864,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -5472,7 +5878,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "\n<div><a href=\"https://laplander.pl/\" target=\"_blank\">laplander</a><br></div>",
+          "title": "\n<div>laplander<br></div>",
           "text": "Cut down the development time with drag-and-drop website builder.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://laplander.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://laplander.pl/</a>",
           "_tags": [
@@ -5497,7 +5903,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -5511,7 +5917,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "<a href=\"https://8a.pl/\" target=\"_blank\">8a.pl</a>",
+          "title": "8a.pl",
           "text": "Cut down the development time with drag-and-drop website builder.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://8a.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://8a.pl/</a>",
           "_tags": [
@@ -5536,7 +5942,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -5550,7 +5956,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "<a href=\"https://www.skalnik.pl/\" target=\"_blank\">skalnik.pl</a>",
+          "title": "skalnik.pl",
           "text": "Cut down the development time with drag-and-drop website builder.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.skalnik.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.skalnik.pl/</a>",
           "_tags": [
@@ -5575,7 +5981,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -5589,7 +5995,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "<a href=\"https://www.specshop.pl/\" target=\"_blank\">specshop.pl</a>",
+          "title": "specshop.pl",
           "text": "Cut down the development time with drag-and-drop website builder.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.specshop.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.specshop.pl/</a>",
           "_tags": [
@@ -5614,7 +6020,7 @@
             "showButtons": true,
             "inverse": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -5628,7 +6034,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "<a href=\"https://www.militaria.pl/\" target=\"_blank\">militaria.pl</a>",
+          "title": "militaria.pl",
           "text": "Cut down the development time with drag-and-drop website builder.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.militaria.pl/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">https://www.militaria.pl/</a>",
           "_tags": [
@@ -5651,6 +6057,9 @@
             },
             ".mbr-section-title SPAN": {
               "font-size": "14px"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "12px"
             }
           },
           "_params": {
@@ -5960,6 +6369,9 @@
             },
             ".mbr-section-title SPAN": {
               "font-size": "14px"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "12px"
             }
           },
           "_params": {
@@ -6012,7 +6424,7 @@
               "active": true,
               "width": 1400,
               "src": "@PROJECT_PATH@/assets/images/20200509-120322-600x338.jpg",
-              "link": "galeria01.html",
+              "link": "galeria.html",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
@@ -6273,6 +6685,9 @@
             },
             ".mbr-section-title SPAN": {
               "font-size": "14px"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "12px"
             }
           },
           "_params": {
@@ -6325,7 +6740,7 @@
               "active": true,
               "width": 1400,
               "src": "@PROJECT_PATH@/assets/images/20200502-153829-1920x1080-800x450.jpg",
-              "link": "galeria02.html",
+              "link": "galeria.html",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
@@ -6586,6 +7001,9 @@
             },
             ".mbr-section-title SPAN": {
               "font-size": "14px"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "12px"
             }
           },
           "_params": {
