@@ -1084,11 +1084,11 @@ section.form .container {
   color: #cccccc;
 }
 #ext_menu-14 .link {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
 }
 #ext_menu-14 .dropdown-item,
 #ext_menu-14 .nav-dropdown-sm .link {
-  font-size: 0.921rem;
+  font-size: 0.866rem;
 }
 #ext_menu-14 .link:hover,
 #ext_menu-14 .dropdown-item:hover,
@@ -1144,6 +1144,13 @@ section.form .container {
 }
 #msg-box5-51 H3 {
   color: #a38f84;
+}
+#msg-box2-5e .mbr-section-title {
+  color: #efefef;
+  font-size: 22px;
+}
+#msg-box2-5e .mbr-section-subtitle {
+  color: #a0a0a0;
 }
 #msg-box2-3x .mbr-section-title {
   color: #efefef;
