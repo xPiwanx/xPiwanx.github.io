@@ -1535,11 +1535,11 @@ section.form .container {
   color: #cccccc;
 }
 #ext_menu-1a .link {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
 }
 #ext_menu-1a .dropdown-item,
 #ext_menu-1a .nav-dropdown-sm .link {
-  font-size: 0.921rem;
+  font-size: 0.866rem;
 }
 #ext_menu-1a .link:hover,
 #ext_menu-1a .dropdown-item:hover,
@@ -1601,6 +1601,13 @@ section.form .container {
   font-size: 22px;
 }
 #msg-box2-2a .mbr-section-subtitle {
+  color: #a0a0a0;
+}
+#msg-box2-5f .mbr-section-title {
+  color: #efefef;
+  font-size: 22px;
+}
+#msg-box2-5f .mbr-section-subtitle {
   color: #a0a0a0;
 }
 #msg-box2-2j .mbr-section-title {
